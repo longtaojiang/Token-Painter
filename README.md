@@ -10,14 +10,13 @@ Token Painter is a training-free text-guided image inpainting model built upon t
 
 ## News
 
-- [2025/11/08] :tada: SmartEraser is accepted by AAAI 2026.
+- [2025/11/08] :tada: Token Painter is accepted by AAAI 2026.
 - [2025/09/28] :sparkles: Release [paper](https://arxiv.org/abs/2509.23919).
 
 ## TODO
 
-- [ ] Release Training codes.
 - [ ] Release Inference models.
-- [ ] Release Train and Inference pipelines.
+- [ ] Release Inference pipelines.
 
 ## Abstract
 > Text-guided image inpainting aims to inpaint masked image regions based on a textual prompt while preserving the background. Although diffusion-based methods have become dominant, their property of modeling the entire image in latent space makes it challenging for the results to align well with prompt details and maintain a consistent background.
@@ -30,33 +29,33 @@ Our approach introduces two key components: (1) Dual-Stream Encoder Information 
 
 ## Comparison of diffusion-based Methods and Token Painter
 <p align="center">
-<img src="syn4removal.png" width=100%>
+<img src="comparison.png" width=100%>
 </p>
 
 ## Token Painter Framework
 <p align="center">
-<img src="smarteraser.png" width=100%>
+<img src="framework.png" width=100%>
 </p>
 
 
 ## 📍 Citation 
 
 ```
-@misc{jiang2025smarteraserremoveimagesusing,
-      title={SmartEraser: Remove Anything from Images using Masked-Region Guidance}, 
-      author={Longtao Jiang and Zhendong Wang and Jianmin Bao and Wengang Zhou and Dongdong Chen and Lei Shi and Dong Chen and Houqiang Li},
+@misc{jiang2025tokenpaintertrainingfreetextguided,
+      title={Token Painter: Training-Free Text-Guided Image Inpainting via Mask Autoregressive Models}, 
+      author={Longtao Jiang and Mingfei Han and Lei Chen and Yongqiang Yu and Feng Zhao and Xiaojun Chang and Zhihui Li},
       year={2025},
-      eprint={2501.08279},
+      eprint={2509.23919},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2501.08279}, 
+      url={https://arxiv.org/abs/2509.23919}, 
 }
 ``` 
 
 ## 💗 Acknowledgements
 
-This repository borrows heavily from [X-Paste](https://github.com/yoctta/XPaste) and [diffusers](https://github.com/huggingface/diffusers). Thanks to the authors for sharing their code and models.
+This repository borrows heavily from [NOVA](https://github.com/baaivision/NOVA). Thanks to the authors for sharing their code and models.
 
 ## 🧿 Maintenance
 
-This is the codebase for our research work. We are still working hard to update this repo, and more details are coming in days. If you have any questions or ideas to discuss, feel free to contact [Longtao Jiang](taotao707@mail.ustc.edu.cn) or [Zhendong Wang](zhendongwang6@outlook.com).
+This is the codebase for our research work. We are still working hard to update this repo, and more details are coming in days. If you have any questions or ideas to discuss, feel free to contact [Longtao Jiang](taotao707@mail.ustc.edu.cn).
