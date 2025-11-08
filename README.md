@@ -29,7 +29,7 @@ Our approach introduces two key components: (1) Dual-Stream Encoder Information 
 
 ## Comparison of diffusion-based Methods and Token Painter
 <p align="center">
-<img src="comparison.png" width=100%>
+<img src="comparison.png" width=60%>
 </p>
 
 ## Token Painter Framework
