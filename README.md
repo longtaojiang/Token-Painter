@@ -24,7 +24,7 @@ To address these issues, we explore Mask AutoRegressive (MAR) models for this ta
 Our approach introduces two key components: (1) Dual-Stream Encoder Information Fusion (DEIF), which fuses the semantic and context information from text and background in frequency domain to produce novel guidance tokens, allowing MAR to generate text-faithful inpainting content while keeping harmonious with background context. (2) Adaptive Decoder Attention Score Enhancing (ADAE), which adaptively enhances attention scores on guidance tokens and inpainting tokens to further enhance the alignment of prompt details and the content visual quality. Extensive experiments demonstrate that our training-free method outperforms prior state-of-the-art methods across almost all metrics.
 
 <p align="center">
-<img src="teasor.png" width=60%>
+<img src="teasor.png" width=90%>
 </p>
 
 ## Installation
